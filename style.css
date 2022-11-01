@@ -1,3 +1,40 @@
 #root {
-  color: red;
+  color: whitesmoke;
+  background-color: rgba(121, 120, 118, 0.233);
+}
+
+.episode {
+  background-color: hsl(228, 60%, 21%);
+  width: 300px;
+  border: 5px solid black;
+  padding: 25px;
+  margin: 30px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.hero__title {
+  color: black;
+  text-align: center;
+  background-color:aliceblue ;
+  margin-left: 12em;
+  margin-right: 12em;
+  border-radius: 0.5em;
+}
+
+.hero__subtitle {
+  color: black;
+  text-align: center;
+  background-color:aliceblue ;
+  margin-left: 12em;
+  margin-right: 12em;
+  border-radius: 0.5em;
+}
+
+#search-results {
+  color: black;
+}
+
+.select-episode {
+  display: none;
 }
