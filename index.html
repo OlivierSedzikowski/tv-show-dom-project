@@ -3,13 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
+    <title>T-V Show Project | Olivier Sedzikowski (OlivierSedzikowski)</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
     <div id="root">
+      <section class="hero">
+        <div class="hero__heading">
+          <h1 class="hero__title">TV SHOWS</h1>
+          <h2 class="hero__subtitle">TV Show Project | Olivier Sedzikowski</h2>
+        </div>
+      </section>
+      <div class="search">
+        <input id="search-input" type="text" placeholder="Search ..." />
+        <p id="search-results"></p>
+      </div>
+      <div class="select-episode">
+        <label for="selectEpisodes">Choose an episode:</label>
+        <select name="selectEpisodes" id="selectEpisodes" aria-selected="true">
+          <option>Select episode</option>
+        </select>
+        <button id="resetButton">All episodes</button>
+      </div>
+      <div class="select-show">
+        <label for="selectShows">Choose a show:</label>
+        <select name="selectShows" id="selectShows" aria-selected="true">
+          <option>Select show</option>
+        </select>
+      </div>
+      <div id="episodes">
+        <!-- <div class="episode">
+          <h2 class="episode-title">Kingsroad</h2>
+
+          <img
+            class="episode-img"
+            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/2669.jpg"
+          />
+
+          <div class="episode-summary">
+            <p>
+              An incident on the Kingsroad threatens Eddard and Robert's
+              friendship. Jon and Tyrion travel to the Wall, where they discover
+              that the reality of the Night's Watch may not match the heroic
+              image of it.
+            </p>
+          </div>
+        </div> -->
+      </div>
     </div>
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
@@ -18,4 +60,8 @@
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
   </body>
+  <!-- <footer>
+    The data originally comes from
+    <a href="https://www.tvmaze.com/">TVMaze.com</a>;
+  </footer> -->
 </html>
